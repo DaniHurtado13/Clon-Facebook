@@ -5,17 +5,20 @@ body {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 
+/*Contenedor principal*/
 .information {
     height: 100vh;
     display: flex;
 }
 
+/*Contenedor descripción*/
 .second-information {
     position: absolute;
     top: 130px;
     left: 190px;
 }
 
+/*Titulo*/
 .second-information h1 {
     position: relative;
     top: 29px;
@@ -30,6 +33,7 @@ p {
     font-size: 28px;
 }
 
+/*Contenedor de formulario*/
 .container-form {
     width: 396px;
     height: 57%;
@@ -41,6 +45,7 @@ p {
     top: 130px;
 }
 
+/*Estilos de inputs*/
 input {
     display: block;
     margin: 17px;
@@ -56,6 +61,7 @@ input:focus {
     outline: 1px solid #0866ff;
 }
 
+/*Boton inicio de sesion*/
 .btnSesion {
     background-color: #0866ff;
     color: white;
@@ -70,10 +76,12 @@ input:focus {
     font-weight: bold;
 }
 
+/*Link de olvidar contraseña*/
 .forget {
     text-align: center;
 }
 
+/*Estilos de links*/
 a {
     text-decoration: none;
     color: #0866ff;
@@ -85,11 +93,13 @@ a:hover {
     text-decoration: underline;
 }
 
+/*Linea divisora entre botones*/
 .linea {
     border-bottom: 1px solid #dadde1;
     margin: 20px 15px;
 }
 
+/*Boton de crear nueva cuenta*/
 .new-account {
     background-color: #42b72a;
     color: white;
